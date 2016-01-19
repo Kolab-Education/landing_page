@@ -1,8 +1,8 @@
 body {
     overflow-x: hidden;
-    background-image: url('../img/all_backgrounds.png');
-    background-repeat: repeat-x;
-    background-color: #85f9c8;
+    background: #360033; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #c44df1 , #85f9c8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #c44df1, #85f9c8);
 }
 
 p {
@@ -39,12 +39,9 @@ h6 {
                  "Helvetica Neue",
                   Helvetica,Montserrat,Arial,sans-serif;
     font-weight: 700;
-    color: #8b509a;
+
 }
 
-#mission h6,  #mission h5, p {
-  color: #8b509a;
-}
 
 h3 {
   padding: 15px;
@@ -89,17 +86,12 @@ a href {
     height:100%;
 }
 
-#welcome .container {
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-
 #welcome  img {
     display: block;
     margin: 0 auto 20px;
 }
 
-#welcome  .intro-text {
+#welcome .intro-text {
     padding-top: 40px;
     display: block;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -111,8 +103,8 @@ a href {
 
 @media(min-width:768px) {
     #welcome  .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 170px;
+        padding-bottom: 0px;
     }
 
     #welcome  .intro-text .name {
@@ -209,7 +201,7 @@ a href {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 section.success {
@@ -285,10 +277,6 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
-}
-
-#contact {
-
 }
 
 @media(min-width:767px) {
@@ -467,4 +455,5 @@ footer .footer-below {
 
 .signup_ {
   margin-top: 20px;
+  margin-bottom: 100px;
 }
