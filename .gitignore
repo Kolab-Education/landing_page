@@ -3,3 +3,5 @@
 *.psd
 *.pages
 *.docx
+ls/
+.ipynb_checkpoints/*
