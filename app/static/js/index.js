@@ -17,7 +17,12 @@ $(function(){
           success: function(res) {
             var elms = $('.signup_').empty();
             var div = $('<div>').attr('class', 'col-lg-12 text-center')
-            var text = $('<h3>').text('Thanks for Signing Up!');
+            var text = $('<img>').attr({
+              'class': 'img-responsive center-block',
+              'src': '../static/img/thank_you.png',
+              'alt': "",
+              'width': '30%'
+            });
             div.append(text);
             elms.append(div);
             console.log(res);
