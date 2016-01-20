@@ -110,8 +110,7 @@ a href {
     height:100%;
     background:  #c44df1; /* fallback for old browsers */
     background-color: #85f9c8;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .browser {
@@ -119,11 +118,11 @@ a href {
 }
 
 .mac {
-  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .about {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .portfolio-text {
@@ -213,7 +212,7 @@ a href {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   outline: 0;
-  color: #18bc9c;
+  color: #8b509a;
   background-color: #85f9c8;
 }
 
