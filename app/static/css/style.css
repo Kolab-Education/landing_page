@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden; /* #360033 */
+    background-color: #c44df1;
 }
 
 p {
@@ -37,6 +38,7 @@ h6 {
                   Helvetica,Montserrat,Arial,sans-serif;
     font-weight: 700;
     color: #8b509a;
+    padding-bottom: 40px;
 }
 
 
@@ -103,13 +105,21 @@ a href {
     color: #8b509a;
 }
 
-#getinvolved, #signup, #about {
+#getinvolved, #signup, #about, #features {
     width:100%;
     height:100%;
     background:  #c44df1; /* fallback for old browsers */
     background-color: #85f9c8;
     padding-bottom: 40px;
     padding-top: 40px;
+}
+
+.browser {
+    padding-bottom: 40px;
+}
+
+.mac {
+  padding-bottom: 50px;
 }
 
 .about {
@@ -123,7 +133,7 @@ a href {
 
 @media(min-width:768px) {
     #welcome  .container {
-        padding-top: 170px;
+        padding-top: 30px;
         padding-bottom: 0px;
     }
 
