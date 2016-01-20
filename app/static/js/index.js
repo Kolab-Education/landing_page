@@ -21,10 +21,20 @@ $(function(){
               'class': 'img-responsive center-block',
               'src': '../static/img/thank_you.png',
               'alt': "",
-              'width': '30%'
+              'width': '25%'
             });
             div.append(text);
             elms.append(div);
+
+            var coming_soon = $('.coming_soon').empty();
+            text = $('<img>').attr({
+              'class': 'img-responsive center-block',
+              'src': '../static/img/thank_you.png',
+              'alt': "",
+              'width': '60%'
+            });
+            coming_soon.append(text);
+
             console.log(res);
           },
           error: function(error) {
