@@ -1,8 +1,5 @@
 body {
-    overflow-x: hidden;
-    background: #360033; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #c44df1 , #85f9c8); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #c44df1, #85f9c8);
+    overflow-x: hidden; /* #360033 */
 }
 
 p {
@@ -39,16 +36,17 @@ h6 {
                  "Helvetica Neue",
                   Helvetica,Montserrat,Arial,sans-serif;
     font-weight: 700;
-
+    color: #8b509a;
 }
 
-
-h3 {
-  padding: 15px;
-}
 
 h4 {
   text-align: center;
+}
+
+h2 {
+  padding-bottom: 40px;
+
 }
 
 hr {
@@ -84,6 +82,10 @@ a href {
 #welcome {
     width:100%;
     height:100%;
+    background:  #c44df1; /* fallback for old browsers */
+    background-color:  #c44df1;
+    background: -webkit-linear-gradient(to bottom, #c44df1, #85f9c8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #c44df1, #85f9c8);
 }
 
 #welcome  img {
@@ -93,6 +95,7 @@ a href {
 
 #welcome .intro-text {
     padding-top: 40px;
+    padding-bottom: 100px;
     display: block;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.5em;
@@ -100,6 +103,23 @@ a href {
     color: #8b509a;
 }
 
+#getinvolved, #signup, #about {
+    width:100%;
+    height:100%;
+    background:  #c44df1; /* fallback for old browsers */
+    background-color: #85f9c8;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.about {
+  padding-bottom: 80px;
+}
+
+.portfolio-text {
+  font-weight: 700;
+  color: #8b509a;
+}
 
 @media(min-width:768px) {
     #welcome  .container {
@@ -155,7 +175,7 @@ a href {
                  "Helvetica Neue",
                   Helvetica,Montserrat,Arial,sans-serif;
     font-weight: 700;
-    background-color: #c44df1;
+    background-color: transparent;
 }
 
 .navbar a:focus {
@@ -200,9 +220,6 @@ a href {
   background-color: #85f9c8;
 }
 
-section {
-  margin-top: 40px;
-}
 
 section.success {
     color: #fff;
@@ -264,15 +281,6 @@ section.success a.active {
     text-align: center;
     font-size: 20px;
     color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
 }
 
 #portfolio * {
