@@ -29,8 +29,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     text-transform: uppercase;
     font-family: "HelveticaNeue-Light",
                  "Helvetica Neue Light",
@@ -38,7 +37,7 @@ h6 {
                   Helvetica,Montserrat,Arial,sans-serif;
     font-weight: 700;
     color: #8b509a;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -47,8 +46,7 @@ h4 {
 }
 
 h2 {
-  padding-bottom: 40px;
-
+  padding-bottom: 20px;
 }
 
 hr {
@@ -92,7 +90,7 @@ a href {
 
 #welcome  img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 
 #welcome .intro-text {
@@ -204,7 +202,7 @@ a href {
 
 .navbar .navbar-nav li a:hover, li a:active {
     outline: 0;
-    color: #18bc9c;
+    color: #c44df1;
     background-color: #8b509a;
 }
 
