@@ -90,6 +90,7 @@ a href {
 
 #welcome  img {
     display: block;
+    padding-top: 130px;
     margin: 0 auto 0px;
 }
 
@@ -315,7 +316,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color:  #85f9c8;
     background: #fff;
     background-color: #8b509a;
 }
